@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+*/build/
+*/.gradle/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+.DS_Store
+
+# Logs
+*.log
+
+# Archivos importantes del proyecto que SÍ deben incluirse
+!build.gradle.kts
+!app/build.gradle.kts
+!**/build.gradle.kts
+!gradle/libs.versions.toml
+!libs.versions.toml
+!**/libs.versions.toml
+!gradle-wrapper.properties
+!gradle.properties
+!proguard-rules.pro
+!settings.gradle.kts
